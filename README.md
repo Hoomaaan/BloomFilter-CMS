@@ -2,7 +2,7 @@
 
 In this repo, I have designed a Bloom Filter and implemented the count min sketch data structure.
 
-Bloom Filter is a probabilistic, memory-efficient data structure to store a set $S$. Different types of Bloom Filters in this program are:
+Bloom Filter is a probabilistic, memory-efficient data structure to store a set S. Different types of Bloom Filters in this program are:
 1) BloomFilterFNV: deterministic hash function 64-bit FNV
 2) BloomFilterRan: uses random Fuction as hash function
 3) BloomFilterMurmur: use murmurhash function instead of FNV
